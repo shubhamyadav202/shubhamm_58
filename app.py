@@ -2,6 +2,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-def add(a, b):
+def add(a, c):
     logging.info("Addition operation performed")
-    return a + b
+    return a + c
